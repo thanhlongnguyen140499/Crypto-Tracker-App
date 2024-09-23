@@ -9,16 +9,24 @@
 /* Begin PBXBuildFile section */
 		D9B2CFBF2CA19ED000C9BB7C /* EverestCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B2CFBE2CA19ED000C9BB7C /* EverestCryptoApp.swift */; };
 		D9B2CFC12CA19ED000C9BB7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B2CFC02CA19ED000C9BB7C /* ContentView.swift */; };
-		D9B2CFC32CA19ED100C9BB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B2CFC22CA19ED100C9BB7C /* Assets.xcassets */; };
 		D9B2CFC62CA19ED100C9BB7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B2CFC52CA19ED100C9BB7C /* Preview Assets.xcassets */; };
+		D9B2CFCD2CA19F7300C9BB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B2CFCC2CA19F7300C9BB7C /* Assets.xcassets */; };
+		D9B2CFD02CA1A01900C9BB7C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B2CFCF2CA1A01900C9BB7C /* Color.swift */; };
+		D9B2CFD62CA1A31000C9BB7C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B2CFD52CA1A31000C9BB7C /* HomeView.swift */; };
+		D9B2CFDA2CA1A41F00C9BB7C /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B2CFD92CA1A41F00C9BB7C /* CircleButtonView.swift */; };
+		D9B2CFDC2CA1A71B00C9BB7C /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B2CFDB2CA1A71B00C9BB7C /* CircleButtonAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D9B2CFBB2CA19ED000C9BB7C /* EverestCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverestCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B2CFBE2CA19ED000C9BB7C /* EverestCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EverestCryptoApp.swift; sourceTree = "<group>"; };
 		D9B2CFC02CA19ED000C9BB7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D9B2CFC22CA19ED100C9BB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9B2CFC52CA19ED100C9BB7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9B2CFCC2CA19F7300C9BB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Resources/Assets.xcassets; sourceTree = "<group>"; };
+		D9B2CFCF2CA1A01900C9BB7C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D9B2CFD52CA1A31000C9BB7C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D9B2CFD92CA1A41F00C9BB7C /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		D9B2CFDB2CA1A71B00C9BB7C /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				D9B2CFBE2CA19ED000C9BB7C /* EverestCryptoApp.swift */,
+				D9B2CFD12CA1A2EB00C9BB7C /* Core */,
+				D9B2CFCE2CA1A00900C9BB7C /* Extensions */,
 				D9B2CFC02CA19ED000C9BB7C /* ContentView.swift */,
-				D9B2CFC22CA19ED100C9BB7C /* Assets.xcassets */,
+				D9B2CFCC2CA19F7300C9BB7C /* Assets.xcassets */,
 				D9B2CFC42CA19ED100C9BB7C /* Preview Content */,
 			);
 			path = EverestCrypto;
@@ -65,6 +75,64 @@
 				D9B2CFC52CA19ED100C9BB7C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9B2CFCE2CA1A00900C9BB7C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2CFCF2CA1A01900C9BB7C /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D9B2CFD12CA1A2EB00C9BB7C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2CFD72CA1A40300C9BB7C /* Components */,
+				D9B2CFD22CA1A2F400C9BB7C /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D9B2CFD22CA1A2F400C9BB7C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2CFD42CA1A30600C9BB7C /* Views */,
+				D9B2CFD32CA1A2FE00C9BB7C /* ViewModels */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D9B2CFD32CA1A2FE00C9BB7C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D9B2CFD42CA1A30600C9BB7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2CFD52CA1A31000C9BB7C /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9B2CFD72CA1A40300C9BB7C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2CFD82CA1A41400C9BB7C /* CircleButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D9B2CFD82CA1A41400C9BB7C /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				D9B2CFD92CA1A41F00C9BB7C /* CircleButtonView.swift */,
+				D9B2CFDB2CA1A71B00C9BB7C /* CircleButtonAnimationView.swift */,
+			);
+			path = CircleButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9B2CFC62CA19ED100C9BB7C /* Preview Assets.xcassets in Resources */,
-				D9B2CFC32CA19ED100C9BB7C /* Assets.xcassets in Resources */,
+				D9B2CFCD2CA19F7300C9BB7C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +206,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9B2CFC12CA19ED000C9BB7C /* ContentView.swift in Sources */,
+				D9B2CFD62CA1A31000C9BB7C /* HomeView.swift in Sources */,
 				D9B2CFBF2CA19ED000C9BB7C /* EverestCryptoApp.swift in Sources */,
+				D9B2CFDA2CA1A41F00C9BB7C /* CircleButtonView.swift in Sources */,
+				D9B2CFD02CA1A01900C9BB7C /* Color.swift in Sources */,
+				D9B2CFDC2CA1A71B00C9BB7C /* CircleButtonAnimationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,16 +347,17 @@
 				DEVELOPMENT_TEAM = X35C9396HP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Everest Crypto";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.everest.crypto.EverestCrypto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -304,16 +377,17 @@
 				DEVELOPMENT_TEAM = X35C9396HP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Everest Crypto";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.everest.crypto.EverestCrypto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
