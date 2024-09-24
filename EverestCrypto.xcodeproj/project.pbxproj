@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90366E22CA26E760098E27C /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90366E12CA26E760098E27C /* CoinRowView.swift */; };
+		D90366E42CA26EC70098E27C /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90366E32CA26EC70098E27C /* PreviewProvider.swift */; };
+		D90366E62CA299D50098E27C /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90366E52CA299D50098E27C /* Double.swift */; };
+		D90366E82CA29EA00098E27C /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90366E72CA29EA00098E27C /* UIScreen.swift */; };
 		D9B2CFBF2CA19ED000C9BB7C /* EverestCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B2CFBE2CA19ED000C9BB7C /* EverestCryptoApp.swift */; };
 		D9B2CFC12CA19ED000C9BB7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B2CFC02CA19ED000C9BB7C /* ContentView.swift */; };
 		D9B2CFC62CA19ED100C9BB7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B2CFC52CA19ED100C9BB7C /* Preview Assets.xcassets */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D90366E12CA26E760098E27C /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		D90366E32CA26EC70098E27C /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		D90366E52CA299D50098E27C /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		D90366E72CA29EA00098E27C /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
 		D9B2CFBB2CA19ED000C9BB7C /* EverestCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverestCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B2CFBE2CA19ED000C9BB7C /* EverestCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EverestCryptoApp.swift; sourceTree = "<group>"; };
 		D9B2CFC02CA19ED000C9BB7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				D9B2CFCF2CA1A01900C9BB7C /* Color.swift */,
+				D90366E32CA26EC70098E27C /* PreviewProvider.swift */,
+				D90366E52CA299D50098E27C /* Double.swift */,
+				D90366E72CA29EA00098E27C /* UIScreen.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -117,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				D9B2CFD52CA1A31000C9BB7C /* HomeView.swift */,
+				D90366E12CA26E760098E27C /* CoinRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,12 +228,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90366E22CA26E760098E27C /* CoinRowView.swift in Sources */,
 				D9B2CFC12CA19ED000C9BB7C /* ContentView.swift in Sources */,
 				D9B2CFD62CA1A31000C9BB7C /* HomeView.swift in Sources */,
 				D9B2CFBF2CA19ED000C9BB7C /* EverestCryptoApp.swift in Sources */,
 				D9B2CFDA2CA1A41F00C9BB7C /* CircleButtonView.swift in Sources */,
 				D9B2CFD02CA1A01900C9BB7C /* Color.swift in Sources */,
+				D90366E82CA29EA00098E27C /* UIScreen.swift in Sources */,
 				D9B2CFDC2CA1A71B00C9BB7C /* CircleButtonAnimationView.swift in Sources */,
+				D90366E42CA26EC70098E27C /* PreviewProvider.swift in Sources */,
+				D90366E62CA299D50098E27C /* Double.swift in Sources */,
 				D9B2CFDF2CA1BCEF00C9BB7C /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
